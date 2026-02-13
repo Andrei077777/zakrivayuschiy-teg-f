@@ -1,1 +1,1 @@
-[https://andrei077777.github.io/zakrivayuschiy-teg-f/](https://andrei077777.github.io/zakrivayuschiy-teg-f/)
+https://github.com/andrei077777/zakrivayuschiy-teg-f

@@ -50,7 +50,7 @@
   text-transform: uppercase;
 }
 
-.header__text {
+.header__description {
   font-family: var(--accent-font), fantasy, sans-serif;
   font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
   text-transform: uppercase;
@@ -75,11 +75,13 @@
 }
 
 .card__title {
+  font-family: var(--main-font), fantasy, sans-serif;
   font-feature-settings: "wght" var(--weight-title);
   font-variation-settings: "wght" var(--weight-title);
   font-size: var(--size-h2);
   padding-block: var(--padding-text-block);
   padding-inline: var(--padding-text-inline);
+  line-height: 100%;
 }
 
 .card__block {
@@ -105,7 +107,7 @@
   right: 25px;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: var(--fonts-PressStart2P), fantasy, sans-serif;
+  font-family: var(--accent-font), fantasy, sans-serif;
   mix-blend-mode: hard-light;
   opacity: 50%;
   text-shadow:
@@ -188,7 +190,7 @@ button {
 }
 
 .button__text {
-  font-family: var(--fonts-PressStart2P), fantasy, sans-serif;
+  font-family: var(--accent-font), fantasy, sans-serif;
   font-size: 14px;
   line-height: 90%;
   display: block;
@@ -211,31 +213,31 @@ button {
   gap: 8px;
 }
 
-.img_isfilter-grayscale {
+.img_is-filter-grayscale {
   filter: grayscale(1);
 }
 
-.img_isfilter-saturation {
+.img_is-filter-saturation {
   filter: saturate(400%);
 }
 
-.img_isfilter-hue {
+.img_is-filter-hue {
   filter: hue-rotate(30deg);
 }
 
-.img_isfilter-inversion {
+.img_is-filter-inversion {
   filter: invert(80%);
 }
 
-.img_isfilter-sepia {
+.img_is-filter-sepia {
   filter: sepia(90%);
 }
 
-.img_isfilter-blur {
+.img_is-filter-blur {
   filter: blur(5px);
 }
 
-.img_isfilter-custom {
+.img_is-filter-custom {
   filter: saturate(200%) invert(30%) hue-rotate(90deg) blur(2px) grayscale(10%);
 }
 

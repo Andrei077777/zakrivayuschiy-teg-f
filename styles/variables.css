@@ -14,7 +14,7 @@
   --padding-text-block: clamp(0.25rem, 0.25rem + 0vw, 0.25rem);
   --padding-text-inline: clamp(0.625rem, 0.625rem + 0vw, 0.625rem);
 
-  --size-h2: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+  --size-h2: 18px;
 
   --color-bg: #fff;
   --color-border: #000;

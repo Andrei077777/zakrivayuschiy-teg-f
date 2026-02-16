@@ -271,7 +271,7 @@ dialog::backdrop {
 }
 
 .dialog__text {
-  font-family: var(--fonts-PressStart2P), fantasy, sans-serif;
+  font-family: var(--accent-font), fantasy, sans-serif;
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
